@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "48426710942",
+    "project_id": "ether-gear",
+    "storage_bucket": "ether-gear.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48426710942:android:7392bd05c55d698149888f",
+        "android_client_info": {
+          "package_name": "com.example.okane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48426710942-r9493kvi676c3vm6v7jp0pg28alddfbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKSUPndaStOSqn18Yt6AZiJhNahUTnBfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48426710942-r9493kvi676c3vm6v7jp0pg28alddfbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

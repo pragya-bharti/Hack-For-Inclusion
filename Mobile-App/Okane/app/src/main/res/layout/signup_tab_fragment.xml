@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"
+        android:id="@+id/register_progress"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email2"
+        app:startIconTint="@color/black"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintHorizontal_bias=".5"
+        app:boxStrokeColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/black"
+        app:endIconMode="custom"
+        app:helperTextEnabled="true"
+        app:helperText="e.g. amanda23@gmail.com"
+        app:startIconDrawable="@drawable/mail"
+        app:hintTextColor="@color/black"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        app:helperTextTextColor="@color/black"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_text"
+            android:hint="Enter Email ID"
+            android:textColor="@color/black"
+            app:hintTextColor="@color/black"
+            android:textColorHighlight="@color/black"
+            android:alpha="1"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name"
+        app:startIconTint="@color/black"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="130dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintHorizontal_bias=".5"
+        app:boxStrokeColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        app:endIconMode="custom"
+        app:helperTextEnabled="true"
+        app:helperText="e.g. Amanda Smith"
+        app:startIconDrawable="@drawable/person"
+        app:hintTextColor="@color/black"
+        app:helperTextTextColor="@color/black"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_text"
+            android:hint="Enter your full name"
+            android:textColor="@color/black"
+            app:hintTextColor="@color/black"
+            android:textColorHighlight="@color/black"
+            android:alpha="1"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/pass2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="270dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintHorizontal_bias=".5"
+        app:boxStrokeColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        app:helperTextEnabled="true"
+        app:helperText="Password should be 8 characters long including alphanumeric characters"
+        app:startIconDrawable="@drawable/lock"
+        app:hintTextColor="@color/black"
+        app:helperTextTextColor="@color/black"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:startIconTint="@color/black"
+        app:endIconMode="password_toggle"
+        app:endIconTint="@color/black"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass_text"
+            android:hint="Create a password"
+            android:textColor="@color/black"
+            app:hintTextColor="@color/black"
+            android:textColorHighlight="@color/black"
+            android:alpha="1"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintVertical_bias=".7"
+        android:text="Signup"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/button_bg"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ether Gear</string>
+    <string name="facebook_app_id">313914803806312</string>
+    <string name="fb_login_protocol_scheme">fb313914803806312</string>
+</resources>
