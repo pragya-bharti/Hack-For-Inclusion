@@ -119,7 +119,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:background="@drawable/button_bg"
         android:layout_marginTop="400dp"
-
+        android:textColor="@color/black"
         />
     <TextView
         android:id="@+id/forget_pass"

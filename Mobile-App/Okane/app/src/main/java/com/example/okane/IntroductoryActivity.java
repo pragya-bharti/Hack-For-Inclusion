@@ -29,7 +29,7 @@ public class IntroductoryActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    startActivity(new Intent(IntroductoryActivity.this,MainActivity.class));
+                    startActivity(new Intent(IntroductoryActivity.this,Home.class));
                     finish();
                 }
             }

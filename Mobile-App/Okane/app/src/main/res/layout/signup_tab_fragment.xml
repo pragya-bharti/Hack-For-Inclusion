@@ -143,7 +143,6 @@
             app:hintTextColor="@color/black"
             android:textColorHighlight="@color/black"
             android:alpha="1"
-
             />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -162,6 +161,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="400dp"
         android:background="@drawable/button_bg"
+        android:textColor="@color/black"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
